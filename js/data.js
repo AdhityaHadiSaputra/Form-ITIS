@@ -14,7 +14,8 @@ var formCategories = [
         fields: ['Nama Employee', 'NIP', 'Sistem yang Diminta', 'Tanggal Dimulai', 'Manager Approval'],
         sla: '2 business days',
         fileSize: '81.9 KB',
-        lastModified: '26 Januari'
+        lastModified: '26 Januari',
+        link: 'https://ptpatria-my.sharepoint.com/:x:/r/personal/sap_helpdesk2_triatra_co_id/_layouts/15/Doc.aspx?sourcedoc=%7BFDA8BA3A-F8EA-4C19-A70D-1E2D6E2BF70C%7D&file=ITIS%20Akses.xlsx&action=default&mobileredirect=true'
       },
       {
         id: 'itis-mutasi',
@@ -24,7 +25,8 @@ var formCategories = [
         fields: ['Nama Employee', 'NIP', 'Departemen Baru', 'Posisi Baru', 'Tanggal Efektif'],
         sla: '3 business days',
         fileSize: '80.6 KB',
-        lastModified: '6 days ago'
+        lastModified: '6 days ago',
+        link: 'https://ptpatria-my.sharepoint.com/:x:/r/personal/sap_helpdesk2_triatra_co_id/_layouts/15/Doc.aspx?sourcedoc=%7BD09EB37E-05C8-461C-9F40-C99D918E0B83%7D&file=ITIS%20Mutasi.xlsx&action=default&mobileredirect=true'
       }
     ]
   },
@@ -42,7 +44,8 @@ var formCategories = [
         fields: ['Nomor CR', 'Deskripsi Perubahan', 'Sistem Terdampak', 'Tanggal Implementasi', 'Manager Approval'],
         sla: '5 business days',
         fileSize: '256 KB',
-        lastModified: '21 Januari'
+        lastModified: '21 Januari',
+        link: 'https://ptpatria-my.sharepoint.com/:w:/r/personal/sap_helpdesk2_triatra_co_id/_layouts/15/Doc.aspx?sourcedoc=%7B2A496C54-3C65-46B7-BEC7-69D227E70AF2%7D&file=Form%20CR%20IT%20Operation.docx&action=default&mobileredirect=true'
       },
       {
         id: 'form-cancel-mtc',
@@ -52,7 +55,8 @@ var formCategories = [
         fields: ['Nomor MTC', 'Alasan Pembatalan', 'Sistem Terkait', 'Tanggal Pembatalan', 'Approval'],
         sla: '1 business day',
         fileSize: '8.36 KB',
-        lastModified: '4 November 2025'
+        lastModified: '4 November 2025',
+        link: 'https://ptpatria-my.sharepoint.com/:x:/r/personal/sap_helpdesk2_triatra_co_id/_layouts/15/Doc.aspx?sourcedoc=%7B9294CBA8-6C1C-4523-AEB4-E7D36B6663AD%7D&file=Form%20Cancel%20MTC.xlsx&action=default&mobileredirect=true'
       },
       {
         id: 'form-permintan-delete-sro',
@@ -62,7 +66,8 @@ var formCategories = [
         fields: ['Nomor SRO', 'Alasan Penghapusan', 'Approval Manager', 'Tanggal Request', 'Keterangan'],
         sla: '3 business days',
         fileSize: '3.50 MB',
-        lastModified: '11 Desember 2025'
+        lastModified: '11 Desember 2025',
+        link: 'https://ptpatria-my.sharepoint.com/:w:/r/personal/sap_helpdesk2_triatra_co_id/_layouts/15/Doc.aspx?sourcedoc=%7BFFEC48AC-32D7-4838-8AE8-B24029081BE4%7D&file=Form%20Permintan%20Delete%20SRO.docx&action=default&mobileredirect=true'
       },
       {
         id: 'form-report-it-operation',
@@ -72,7 +77,8 @@ var formCategories = [
         fields: ['Periode Laporan', 'Aktivitas IT', 'Metrics Sistem', 'Issues Terjadi', 'Rekomendasi'],
         sla: '10 business days',
         fileSize: '1.27 MB',
-        lastModified: '10 September 2025'
+        lastModified: '10 September 2025',
+        link: 'https://ptpatria-my.sharepoint.com/:w:/r/personal/sap_helpdesk2_triatra_co_id/_layouts/15/Doc.aspx?sourcedoc=%7BAC3B2333-07EC-4370-BD44-F130EED5B06C%7D&file=Form%20Report%20IT%20Operation.docx&action=default&mobileredirect=true'
       }
     ]
   },
@@ -101,7 +107,8 @@ var formCategories = [
         fields: ['Nomor Aset', 'Jenis Aset', 'Alasan Penghapusan', 'Nilai Aset', 'Approval Finance'],
         sla: '7 business days',
         fileSize: '133 KB',
-        lastModified: '11 Desember 2025'
+        lastModified: '11 Desember 2025',
+        link: 'https://ptpatria-my.sharepoint.com/:w:/r/personal/sap_helpdesk2_triatra_co_id/_layouts/15/Doc.aspx?sourcedoc=%7B0B5B4AA6-3A05-4077-A69C-B4C858379696%7D&file=Form%20Penghapusan%20Asset.docx&action=default&mobileredirect=true'
       },
       {
         id: 'form-transfer-asset',
@@ -111,7 +118,8 @@ var formCategories = [
         fields: ['Nomor Aset', 'Department Asal', 'Department Tujuan', 'Tanggal Transfer', 'Approval'],
         sla: '5 business days',
         fileSize: '135 KB',
-        lastModified: '11 Desember 2025'
+        lastModified: '11 Desember 2025',
+        link: 'https://ptpatria-my.sharepoint.com/:w:/r/personal/sap_helpdesk2_triatra_co_id/_layouts/15/Doc.aspx?sourcedoc=%7BB65C198A-C0BE-4DA8-9DB1-9B5621417D8C%7D&file=Form%20Transfer%20Asset.docx&action=default&mobileredirect=true'
       }
     ]
   },
@@ -129,7 +137,8 @@ var formCategories = [
         fields: ['Nomor SA', 'Vendor', 'Jumlah Pembayaran', 'Periode Layanan', 'Approval Finance'],
         sla: '5 business days',
         fileSize: '44 KB',
-        lastModified: '4 Juni 2024'
+        lastModified: '4 Juni 2024',
+        link: 'https://ptpatria-my.sharepoint.com/:x:/r/personal/sap_helpdesk2_triatra_co_id/_layouts/15/Doc.aspx?sourcedoc=%7B1F208CE4-1BD3-4F18-981C-BCE60C2F774E%7D&file=FORM%20SA%20PAYMENT.xls&action=default&mobileredirect=true'
       },
       {
         id: 'form-integrasi-po-ut-tsp',
@@ -139,7 +148,8 @@ var formCategories = [
         fields: ['Nomor PO', 'Vendor', 'Item Barang', 'Jumlah', 'Total Harga'],
         sla: '7 business days',
         fileSize: '11.6 KB',
-        lastModified: '29 Januari'
+        lastModified: '29 Januari',
+        link: 'https://ptpatria-my.sharepoint.com/:x:/r/personal/sap_helpdesk2_triatra_co_id/_layouts/15/Doc.aspx?sourcedoc=%7B2237AA71-1F05-4DAA-A26B-75CFD099942E%7D&file=Form%20integrasi%20PO%20UT-TSP.xlsx&action=default&mobileredirect=true'
       }
     ]
   },
@@ -157,7 +167,8 @@ var formCategories = [
         fields: ['Nomor Klaim', 'Nama Karyawan', 'Jenis Klaim', 'Tanggal Kejadian', 'Nominal Klaim'],
         sla: '10 business days',
         fileSize: '19.1 KB',
-        lastModified: '4 Januari'
+        lastModified: '4 Januari',
+        link: 'https://ptpatria-my.sharepoint.com/:x:/r/personal/sap_helpdesk2_triatra_co_id/_layouts/15/Doc.aspx?sourcedoc=%7B1F043857-D25E-4BA6-A2EC-261112C48334%7D&file=Form%20KLAIM%20TRIATRA.xlsx&action=default&mobileredirect=true'
       }
     ]
   },
@@ -175,7 +186,8 @@ var formCategories = [
         fields: ['Tanggal Rapat', 'Peserta Rapat', 'Topik Diskusi', 'Keputusan yang Diambil', 'Action Items'],
         sla: '3 business days',
         fileSize: '309 KB',
-        lastModified: '21 Januari'
+        lastModified: '21 Januari',
+        link: 'https://ptpatria-my.sharepoint.com/:w:/r/personal/sap_helpdesk2_triatra_co_id/_layouts/15/Doc.aspx?sourcedoc=%7BF631813D-295D-4457-A7A6-3E3DCA8EB9C8%7D&file=Form%20Notulensi.docx&action=default&mobileredirect=true'
       }
     ]
   },
@@ -193,7 +205,8 @@ var formCategories = [
         fields: ['Tipe Infrastruktur', 'Lokasi', 'Spesifikasi', 'Status', 'Maintenance Schedule'],
         sla: '5 business days',
         fileSize: '79.7 KB',
-        lastModified: '11 Desember 2025'
+        lastModified: '11 Desember 2025',
+        link: 'https://ptpatria-my.sharepoint.com/:x:/r/personal/sap_helpdesk2_triatra_co_id/_layouts/15/Doc.aspx?sourcedoc=%7BB0F89354-5C67-4F8F-B323-BA22D0443706%7D&file=ITIS%20Infrastruktur.xlsx&action=default&mobileredirect=true'
       }
     ]
   }
