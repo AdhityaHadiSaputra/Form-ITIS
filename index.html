@@ -21,8 +21,10 @@
       </a>
 
       <nav class="nav" role="navigation" aria-label="Main navigation">
+        <a class="nav-link" onclick="navigate('')" data-nav="home">Home</a>
         <a class="nav-link" onclick="navigate('search')" data-nav="search">Search</a>
-
+        <a class="nav-link" onclick="navigate('dashboard')" data-nav="dashboard">Dashboard</a>
+        <a class="nav-link" onclick="navigate('about')" data-nav="about">About</a>
       </nav>
 
       <button class="menu-btn" onclick="toggleMobileMenu()" aria-label="Toggle navigation menu">&#9776;</button>
@@ -40,10 +42,11 @@
   <div id="page-home" class="page active">
     <section class="hero">
       <div class="hero-inner">
-        <h1>IT Forms </h1>
+        <h1>IT Forms Made Simple</h1>
         <p>Akses semua formulir departemen IT dan Sistem Informasi dalam satu tempat. 14 form, 7 kategori, semua yang Anda butuhkan.</p>
         <div class="hero-btns">
           <a class="btn btn-primary btn-lg" href="#forms-anchor" onclick="scrollToForms(event)">Lihat Semua Form</a>
+          <a class="btn btn-outline btn-lg" onclick="navigate('search')">Cari Form</a>
         </div>
       </div>
     </section>
@@ -63,6 +66,13 @@
             <div>
               <div class="stat-label">Kategori</div>
               <div class="stat-value">Terorganisir rapi</div>
+            </div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">&infin;</div>
+            <div>
+              <div class="stat-label">Akses</div>
+              <div class="stat-value">Tersedia 24/7</div>
             </div>
           </div>
         </div>
